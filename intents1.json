@@ -1,0 +1,153 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "What's up?",
+                "Greetings",
+                "Hi",
+                "Hey, how's it going?"
+            ],
+            "responses": [
+                "Hello",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Hey! What can I assist you with?",
+                "Hola! ¿En qué puedo ayudarte?"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "Farewell",
+                "Take care",
+                "Catch you later",
+                "Bye-bye",
+                "Adios"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Take care! See you soon.",
+                "Farewell! Have a great day."
+            ],
+            "context": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "I appreciate it",
+                "Thanks a bunch",
+                "Thanks a lot",
+                "You're a lifesaver",
+                "I owe you one"
+            ],
+            "responses": [
+                "My pleasure",
+                "You're Welcome",
+                "Glad I could assist",
+                "No problem!",
+                "Anytime!",
+                "Happy to help"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "query",
+            "patterns": [
+                "what is 2+3",
+                "what is the capital of France",
+                "who invented the lightbulb",
+                "what is the speed of light",
+                "what is the formula for acceleration",
+                "what is the largest organ in the human body",
+                "what is the boiling point of water",
+                "how does photosynthesis work",
+                "what is the distance to the moon",
+                "what is the diameter of Earth",
+                "what is the atomic number of oxygen",
+                "what is the chemical symbol for gold",
+                "what is the tallest mountain in the world",
+                "who won the last Super Bowl",
+                "what is the world record for the 100m sprint",
+                "how many players are on a basketball team"
+            ],
+            "responses": [
+                "The answer is 5",
+                "The capital of France is Paris",
+                "Thomas Edison invented the lightbulb",
+                "The speed of light is approximately 299,792 kilometers per second",
+                "The formula for acceleration is final velocity minus initial velocity divided by time",
+                "The largest organ in the human body is the skin",
+                "The boiling point of water is 100 degrees Celsius",
+                "Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesize foods with the help of chlorophyll",
+                "The average distance to the moon is about 384,400 kilometers",
+                "The diameter of Earth is approximately 12,742 kilometers",
+                "The atomic number of oxygen is 8",
+                "The chemical symbol for gold is Au",
+                "Mount Everest is the tallest mountain in the world",
+                "The Kansas City Chiefs won the last Super Bowl",
+                "The world record for the 100m sprint is 9.58 seconds",
+                "There are 5 players on a basketball team"
+            ],
+            "context": ""
+        },
+        {
+            "tag": "sports",
+            "patterns": [
+                "who won the last FIFA World Cup?",
+                "what is the record for most goals scored in a single football match?",
+                "how many Grand Slam titles does Roger Federer have?",
+                "what is the fastest recorded serve in tennis?",
+                "who won the last NBA championship?",
+                "what is the highest score ever achieved in an NBA game?",
+                "how many Olympic gold medals does Michael Phelps have?",
+                "what is the record for the longest home run in MLB history?",
+                "who holds the record for the most home runs in a single MLB season?",
+                "how many UFC titles has Conor McGregor won?",
+                "what is the fastest knockout in UFC history?",
+                "who is the current heavyweight boxing champion?",
+                "what is the longest winning streak in professional boxing?",
+                "how many Olympic gold medals does Usain Bolt have?",
+                "what is the world record for the marathon?"
+            ],
+            "responses": [
+                "France won the last FIFA World Cup in 2018.",
+                "The record for most goals scored in a single football match is held by Stephan Stanis with 16 goals.",
+                "Roger Federer has won 20 Grand Slam titles.",
+                "The fastest recorded serve in tennis was 163.7 mph (263.4 km/h) by Samuel Groth.",
+                "The Milwaukee Bucks won the last NBA championship.",
+                "The Detroit Pistons and Denver Nuggets jointly hold the record for the highest score in an NBA game with 186 points each.",
+                "Michael Phelps has won 23 Olympic gold medals.",
+                "The longest home run in MLB history was hit by Mickey Mantle and traveled an estimated distance of 634 feet (193 meters).",
+                "Barry Bonds holds the record for the most home runs in a single MLB season with 73 home runs in 2001.",
+                "Conor McGregor has won two UFC titles.",
+                "The fastest knockout in UFC history is 5 seconds, achieved by Jorge Masvidal against Ben Askren.",
+                "The current heavyweight boxing champion is Tyson Fury.",
+                "Floyd Mayweather holds the record for the longest winning streak in professional boxing with 50 wins.",
+                "Usain Bolt has won 8 Olympic gold medals.",
+                "The world record for the marathon is 2:01:39, set by Eliud Kipchoge."
+            ],
+            "context": ""
+        }
+    ]
+}
